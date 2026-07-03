@@ -6,7 +6,7 @@ The project is configured by default on the **Pima Indians Diabetes Dataset**, b
 
 ![Fitness Evolution](fitness.png)
 
-## ✨ Features
+## 🧬 Features
 
 - **Interactive dashboard**: a "premium" dark-themed Streamlit UI to run and visualize the GA's evolution in real time.
 - **Custom Genetic Algorithm**: a `GeneticAlgorithmFeatureSelection` class built entirely from scratch, with several interchangeable strategies:
@@ -24,7 +24,7 @@ The project is configured by default on the **Pima Indians Diabetes Dataset**, b
   - Dynamics of the genetic operators (selection, crossover, mutation)
 - **Custom dataset upload**: load your own CSV file and choose the target column.
 
-## 📁 Project Structure
+## 🧬 Project Structure
 
 ```
 Mini_Projet_GA/
@@ -38,7 +38,7 @@ Mini_Projet_GA/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## 🧬 Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ streamlit run app.py
 
 Then open the local URL shown in your terminal (default `http://localhost:8501`) in your browser.
 
-## ⚙️ How the Algorithm Works
+## 🧬 How the Algorithm Works
 
 Each **chromosome** is a binary vector the length of the number of features (`1` = feature included, `0` = feature excluded).
 
@@ -74,13 +74,13 @@ Each **chromosome** is a binary vector the length of the number of features (`1`
 
 Data is split **60% train / 20% validation / 20% test**, with feature standardization (`StandardScaler`).
 
-## 📊 Visualization Preview
+## 🧬 Visualization Preview
 
 | Population Diversity | Feature Frequency |
 |---|---|
 | ![Diversity](diversity.png) | ![Feature Frequency](feature_frequency.png) |
 
-## 🧪 Running as a Standalone Script
+## 🧬 Running as a Standalone Script
 
 `ga_pima_diabetes.py` can also be run directly to launch a full command-line demo and generate a combined dashboard image (`combined_ga_dashboard.png`):
 
@@ -88,6 +88,4 @@ Data is split **60% train / 20% validation / 20% test**, with feature standardiz
 python ga_pima_diabetes.py
 ```
 
-## 📄 License
 
-Built as part of an academic mini-project. Free to use and adapt.
